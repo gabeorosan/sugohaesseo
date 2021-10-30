@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  font-size: 25px;
+}
+.highlight{
+    background-color:#ACCEF7; 
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+.flexbox{
+    display: flex;
+    width: 100%;
+}
+.flexchild{
+    margin-right: 10px;
+}
+#timer-end-input{
+    max-width: 150px;
+    text-align: center;
+}
+.hidden{
+    display: none
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class='flexbox'>
+    <button class='flexchild'id='start-button' onclick='renderNewQuote()'>시작하다</button> 
+    <input class='flexchild'placeholder='seconds' id='timer-end-input'>
+</div>
+<div class='hidden flexbox' id='results-box'>
+    <div class="flexchild timer" id="timer"></div>
+    <span class='flexchild'>단어: </span>
+    <span class='flexchild'id='words-correct'></span>
+    <span class='flexchild'>子: </span>
+    <span class='flexchild'id='chars-correct'></span>
+</div>
+<div id='passageBox'></div>
+  <div class="container">
+    <div class="quote-display" id="quoteDisplay"></div>
+    <input id='quoteInput' class='quote-input hidden'>
+  </div>
+<script type="text/javascript" src="passages.js"></script>
+<script type="text/javascript" src="script.js"></script> 
+</body>
+</html>
+
